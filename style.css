@@ -1,0 +1,81 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(0.25turn, #3f87a683, #ebf8e1, #f69c3c8d);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contatos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.linkedln, .git, .whatsapp{
+    width: 100px;
+    margin-top: 50px;
+}
+
+.emily {
+    width: 300px;
+}
+
+.container-info {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.formacao {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.academico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 15px;
+    width: 30%;
+}
+
+.info h3 {
+    color: rgb(50, 50, 50);
+}
+
+.projetos {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.projetos img {
+    border: 2px solid black;
+}
+.projetos-h2 {
+    padding: 15px;
+    text-align: center;
+    justify-content: center;
+}
